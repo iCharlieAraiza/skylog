@@ -8,6 +8,8 @@ const accountStack = {
     tab: 'AccountTab',
     account: 'Account',
     profile:'Profile',
+    login: 'Login',
+    register: "Register",
 }
 
 const CreateLogStack = {
