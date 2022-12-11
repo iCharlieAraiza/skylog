@@ -1,12 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+
+
+import {AppNavigation} from './src/navigation/AppNavigation'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Hello! This is a Skylog</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      <NavigationContainer>
+        <AppNavigation />
+      </NavigationContainer>
+    </>
   );
 }
 
