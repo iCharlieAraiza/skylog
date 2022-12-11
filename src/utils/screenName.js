@@ -1,10 +1,12 @@
 const flightsStack = {
     tab: 'FlightsTab',
-    showFligh: 'ShowFlight',
+    flights:'Flights',
+    showFlight: 'ShowFlight',
 }
 
 const accountStack = {
     tab: 'AccountTab',
+    account: 'Account',
     profile:'Profile',
 }
 

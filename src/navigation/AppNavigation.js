@@ -1,6 +1,6 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import React from "react";
-import { AccountScreen } from "../screens/AccountScreen";
+import { AccountScreen } from "../screens/Account/AccountScreen";
 import { View, Text } from "react-native";
 import { Icon } from "@rneui/base";
 import { screen } from "../utils/screenName";

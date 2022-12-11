@@ -10,12 +10,12 @@ export function FlightsStack() {
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name={screen.flights.tab}
+        name={screen.flights.flights}
         component={FlightsScreen}
-        options={{ title: "Detalles del Vuelo" }}
+        options={{ title: "Vuelos" }}
       />
       <Stack.Screen
-        name={screen.flights.showFligh}
+        name={screen.flights.showFlight}
         component={ShowFlightScreen}
         options={{ title: "Detalles del Vuelo" }}
       />
