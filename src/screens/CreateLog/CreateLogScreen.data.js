@@ -7,6 +7,7 @@ export function initialVales() {
     registration: "",
     plane: "",
     altitude: "",
+    description: "",
   };
 }
 
@@ -17,6 +18,7 @@ export function validationSchema() {
     registration: Yup.string().required("Campo obligatorio"),
     plane: Yup.string().required("Campo obligatorio"),
     altitude: Yup.string(),
+    description: Yup.string(),
   });
 }
 

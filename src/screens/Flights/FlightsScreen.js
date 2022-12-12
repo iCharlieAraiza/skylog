@@ -6,6 +6,7 @@ import { screen } from "../../utils/screenName";
 import { collection, onSnapshot, orderBy, query } from "firebase/firestore";
 import { db } from "../../utils/firebase";
 import { LoadingModal } from "../../components/shared/LoadingModal/LoadingModal.js";
+import { ListOfFlights } from "../../components/Flights/ListOfFlights/ListOfFlights.js";  
 
 export function FlightsScreen(props) {
   const { navigation } = props;
@@ -34,8 +35,11 @@ export function FlightsScreen(props) {
 
   return (
     <View>
-      <Text>Flights</Text>
-      <Button title="Ver vuelo" onPress={handlePress} />
+      {!flights ? (
+        <LoadingModal show text="Cargando" />
+      ) : (
+        <ListOfFlights flights={flights} />
+      )}
     </View>
   );
 }

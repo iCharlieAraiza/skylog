@@ -41,6 +41,8 @@ export function InfoForm(props) {
         placeholder="Descripción"
         multiline={true}
         inputContainerStyle={styles.textArea}
+        onChangeText={(text) => formik.setFieldValue("description", text)}
+        errorMessage={formik.errors.description}
       />
     </View>
   );
