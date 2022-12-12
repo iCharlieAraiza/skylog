@@ -17,9 +17,8 @@ export function UserGuestScreen() {
     <ScrollView centerContent={true} style={styles.content}>
       <Text style={styles.title}>Consultar tu perfil de SkyLog</Text>
       <Text style={styles.description}>
-        ¿Como describirías tu mejor restaurante? Busca y visualiza los mejores
-        restaurantes de una forma sencilla, vota cual te ha gustado más y
-        comenta como ha sito tu experiencia.
+        Registrate tus vuelos a través de SkyLog de forma fácil y rápida. 
+        Podrás tener una bitácora completa desde la palma de tu mano.
       </Text>
 
       <Button

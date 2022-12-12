@@ -23,6 +23,8 @@
     "react-native-keyboard-aware-scroll-view": "^0.9.5",
     "react-native-safe-area-context": "4.4.1",
     "react-native-screens": "~3.18.0",
+    "react-native-toast-message": "^2.1.5",
+    "react-toast-notifier": "^1.0.3",
     "yup": "^0.32.11"
   },
   "devDependencies": {

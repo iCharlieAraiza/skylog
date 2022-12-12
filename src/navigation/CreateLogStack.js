@@ -2,7 +2,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React from "react";
 import { screen } from "../utils/screenName";
 
-import { CreateLogScreen } from "../screens/CreateLogScreen";
+import { CreateLogScreen } from "../screens/CreateLog/CreateLogScreen";
 
 const Stack = createNativeStackNavigator();
 

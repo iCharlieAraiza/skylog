@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from 'react'
 import { View, Text } from 'react-native'
 import { getAuth, onAuthStateChanged } from 'firebase/auth'
-import { UserLoggedScreen } from './UserLoggedScreen'
+import { UserLoggedScreen } from './UserLoggedScreen/UserLoggedScreen'
 import { UserGuestScreen } from './UserGuestScreen/UserGuestScreen'
 
 import { LoadingModal } from '../../components/shared/LoadingModal/LoadingModal'
